@@ -28,6 +28,10 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `cliente`
 --
 
+CREATE DATABASE venta;
+
+USE venta;
+
 CREATE TABLE `cliente` (
   `idcliente` int(11) NOT NULL,
   `nombre` varchar(100) COLLATE utf8_spanish_ci NOT NULL,
